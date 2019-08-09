@@ -1,6 +1,14 @@
 {
   "name": "mochatesting",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "description": "simple app for testing",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
 }
